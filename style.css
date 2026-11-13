@@ -1,14 +1,5 @@
 body {
-  /* background-image: */
-  /*   linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), */
-  /*   url("purple-sky-pole.jpg"); */
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
-  /* background-position: center center; */
-  /* background-attachment: fixed; */
-  /* background-color: #181818; */
-  background-color: #11160C;
-  overflow-x: hidden;
+  background-color: papayawhip;
 }
 
 main {
@@ -26,13 +17,10 @@ main {
   margin-right: auto;
 }
 
-h1,
-h3,
-p,
-li {
+h1, h3, p, li {
   padding: 2px;
-  color: white;
-  -webkit-text-stroke: 0.2px skyblue;
+  color: black;
+  /* -webkit-text-stroke: 0.2px skyblue; */
 }
 
 h1 {
