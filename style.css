@@ -1,37 +1,49 @@
 body {
-  background-color: papayawhip;
+	background-color: #181818;
+	color:            #FFFFFF;
+}
+
+nav {
+	margin-left:  auto;
+	margin-right: auto;
+	width:        fit-content;
 }
 
 main {
-  font-size: larger;
-  font-family: "yu mincho", serif, monospace;
-  width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
+	font-family:  monospace;
+	font-size:    larger;
+	margin-left:  auto;
+	margin-right: auto;
+	width:        fit-content;
+	max-width:    72ch;
+	text-align:   justify;
 }
 
 .center {
-  text-align: center;
-  width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
+	text-align:   center;
+	width:        fit-content;
+	margin-left:  auto;
+	margin-right: auto;
 }
 
-h1, h3, p, li {
-  padding: 2px;
-  color: black;
-  /* -webkit-text-stroke: 0.2px skyblue; */
+h1, h2, h3 {
+	padding: 2px;
+	color:   #FFDD33;
+}
+
+a {
+	color: #95A99F;
+}
+
+a:hover {
+	color: #96A6C8;
 }
 
 h1 {
-  border-radius: 2px;
+	border-radius: 2px;
 }
 
 p {
-  width: fit-content;
-  border-radius: 2px;
+	width:         fit-content;
+	border-radius: 2px;
 }
-
-/*
-vim: tabstop=2:expandtab:shiftwidth=2
-*/
